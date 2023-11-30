@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #2C2839, #1E1A28);
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #FFD700;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #BFA3D0;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #007BFF;
+}
+
+a {
+    color: #28A745;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}

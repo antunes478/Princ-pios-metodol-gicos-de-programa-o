@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* branco */
+    color: #333333; /* preto */
+}
+
+header {
+    background-color: #663399; /* roxo */
+    color: #ffffff; /* branco */
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    background-color: #ffffff; /* branco */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #000000; /* roxo */
+}
+
+p {
+    color: #06050571; /* preto */
+    line-height: 1.6;
+}
+
+/* Adicionando uma cor de destaque rosa */
+a {
+    color: #ff69b4; /* rosa */
+}
+
+/* Opcional: Adicione alguma responsividade */
+@media (max-width: 600px) {
+    .section {
+        margin: 10px;
+        padding: 15px;
+    }
+}

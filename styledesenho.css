@@ -1,0 +1,63 @@
+/* styledesenho.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #080808; /* preto */
+    color: #fff; /* branco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a0572; /* roxo */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Adicione ao seu arquivo styledesenho.css */
+
+nav {
+    background-color: #6a0572; /* roxo */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4c035a; /* roxo mais escuro */
+}
+
+/* Adiciona um espaçamento para as seções do conteúdo */
+.container section {
+    margin-bottom: 30px;
+}
